@@ -1,0 +1,15 @@
+mongoimport --db ricedb --collection componentCategory --jsonArray --file D:\course\Rice\COMP533\HW5\data5\componentCat.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection component --jsonArray --file D:\course\Rice\COMP533\HW5\data5\component.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection employee --jsonArray --file D:\course\Rice\COMP533\HW5\data5\employee.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection event --jsonArray --file D:\course\Rice\COMP533\HW5\data5\event.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection eventAssignment --jsonArray --file D:\course\Rice\COMP533\HW5\data5\eventAssignment.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection itemSold --jsonArray --file D:\course\Rice\COMP533\HW5\data5\itemSold.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection location --jsonArray --file D:\course\Rice\COMP533\HW5\data5\location.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection menu --jsonArray --file D:\course\Rice\COMP533\HW5\data5\menu.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection menuItem --jsonArray --file D:\course\Rice\COMP533\HW5\data5\menuItem.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection product --jsonArray --file D:\course\Rice\COMP533\HW5\data5\product.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection productSold --jsonArray --file D:\course\Rice\COMP533\HW5\data5\productSold.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection recipeItem --jsonArray --file D:\course\Rice\COMP533\HW5\data5\recipeItem.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection ticket --jsonArray --file D:\course\Rice\COMP533\HW5\data5\ticket.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection unit --jsonArray --file D:\course\Rice\COMP533\HW5\data5\unit.json --username ricedb --password mypwd
+mongoimport --db ricedb --collection tkt --jsonArray --file D:\course\Rice\COMP533\HW5\data5\tkt.json --username ricedb --password mypwd
